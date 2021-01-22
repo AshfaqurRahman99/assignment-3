@@ -64,3 +64,22 @@ function hotelCost(days){
 }
 console.log(hotelCost(21));
 
+// find out the large string from an array
+function megaFriend(names) {
+    let largeName = names [0];
+
+    for (let i = 0; i < names.length; i++) {
+        let element = names [i];
+        if( element.length > largeName.length){
+            largeName = element;
+        }
+    } 
+    return largeName;    
+}
+
+let friends = [ 'mofijur', 'rafiq', 'abdur-rahman', 'korimon-banu-alia','asif']
+// declare an array containing friends name
+let largestName = megaFriend(friends);
+console.log(largestName);
+
+
