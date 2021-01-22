@@ -1,3 +1,4 @@
+// https://github.com/AshfaqurRahman99/assignment-3
 // converting kilometer value to meter
 // 1 kilometer = 1000 meter;
 function kilometerToMeter(kilometer){
@@ -7,8 +8,7 @@ function kilometerToMeter(kilometer){
     }
     else{
         console.log("kilometer never carry negative value");
-    }
-    
+    }  
 }
 console.log(kilometerToMeter(5));
 
@@ -37,7 +37,6 @@ function budgetCalculator(watch, mobile, laptop){
     else{
         console.log("Countable element never carry negative number")
     }
-    
 }
 console.log(budgetCalculator(4,5,6));
 
